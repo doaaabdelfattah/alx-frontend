@@ -20,7 +20,7 @@ h6 {
   font-weight: var(--font-weight-bold);
 }
 
-a:link {
+a {
   color: var(--text-color);
   text-decoration: none;
 }
