@@ -1,4 +1,4 @@
-/* Add border to the button */
+/* Fixing the header and menu navigation bar */
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -519,6 +519,18 @@ a:active {
   margin: var(--section-tagline-margin);
 }
 
+.section-hero {
+  background-size: 90rem auto;
+}
+
+.section-hero .section-title {
+  margin-bottom: 5rem;
+}
+
+.section-hero .section-inner {
+  padding: 10rem 40rem 2rem 0;
+}
+
 [data-section-theme="dark"] {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
@@ -560,12 +572,15 @@ a:active {
 .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
-header {
+
+.header {
   padding: var(--header-padding);
 }
+
 .header-logo {
   position: var(--header-logo-position);
 }
+
 .header-logo a {
   display: var(--header-logo-link-display);
   position: var(--header-logo-link-position);
@@ -658,16 +673,4 @@ ul.row {
   display: block;
   padding-top: 1rem;
   color: var(--color-primary);
-}
-
-.section-hero {
-  background-size: 90rem auto;
-}
-
-.section-hero .section-title {
-  margin-bottom: 5rem;
-}
-
-.section-hero .section-inner {
-  padding: 10rem 40rem 2rem 0;
 }
